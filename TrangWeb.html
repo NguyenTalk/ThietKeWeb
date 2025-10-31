@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quản lý Bánh Ngọt 🎂</title>
+  <link rel="stylesheet" href="TrangWeb.css" />
+</head>
+
+<body>
+  <header>🎂 Quản Lý Bánh Ngọt - Cake Shop</header>
+
+  <nav class="menu">
+    <a href="#" class="menu-item" data-action="all">📋 Xem tất cả bánh</a>
+    <a href="#" class="menu-item" data-action="my">🧁 Bánh của tôi</a>
+    <a href="#" class="menu-item" data-action="categories">📂 Danh mục bánh</a>
+    <a href="#" class="menu-item" data-action="search">🔍 Tìm kiếm bánh</a>
+    <a href="#" class="menu-item" data-action="create">➕ Tạo bánh mới</a>
+    <a href="#" class="menu-item" data-action="update">✏️ Cập nhật bánh</a>
+    <a href="#" class="menu-item" data-action="delete">🗑️ Xóa bánh</a>
+  </nav>
+
+  <main>
+    <p class="intro-text">Chọn một mục trong menu để thao tác 🍰</p>
+    <div id="cakeList" class="cake-grid"></div>
+    <div id="formContainer"></div>
+  </main>
+
+  <div class="logout">
+    <button class="btn-logout" id="logoutBtn">Đăng xuất</button>
+  </div>
+
+  <script src="TrangWeb.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng nhập - Cake Shop 🎂</title>
+  <link rel="stylesheet" href="script.css" />
+</head>
+
+<body>
+  <div class="bubbles" id="bubbles"></div>
+
+  <div class="card">
+    <div class="brand">
+      <div class="logo">🍰</div>
+      <div>
+        <h1>Cake Shop</h1>
+        <p class="lead">Đăng nhập để tiếp tục 🎃</p>
+      </div>
+    </div>
+
+    <form id="loginForm">
+      <div>
+        <label for="username">Tên đăng nhập</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="Nhập tên đăng nhập"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="password">Mật khẩu</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Nhập mật khẩu"
+          required
+        />
+      </div>
+
+      <p id="errorMsg" class="error"></p>
+
+      <button type="submit" class="btn">Đăng Nhập</button>
+    </form>
+
+    <p class="foot">
+      🎂 Chưa có tài khoản?
+      <a href="dangki.html" class="link">Đăng ký ngay</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
